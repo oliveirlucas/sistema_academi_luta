@@ -83,11 +83,11 @@ mysqli_close($connect);
 				<li>
 					<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 					<i class="pe-7s-user"></i>
-					<p>Alunos</p>
+					<p>Alunos<b class = "caret"></b></p>
 					</a>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-						<ul class="bg-white py-2 collapse-inner rounded">
-							<li><a href="cadastroaluno.php">Cadastrar aluno</a></li>
+						<ul class="nav">
+							<li class="nav-item" ><a href="cadastroaluno.php">Cadastrar aluno</a></li>
 							<li><a href="listaraluno.php">Lista de alunos</a></li>
 							<li><a href="#">Alunos por professor</a></li>
 						</ul>
